@@ -8,7 +8,7 @@ public class TestFiguras {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Cuadrado c1 = new Cuadrado("Cuadro1","Rojo");
+		Cuadrado c1 = new Cuadrado("Cuadro1","Rojo", 0);
 		Triangulo t1 = new Triangulo("Triangulo1","Verde");
 		
 		System.out.println(c1);
