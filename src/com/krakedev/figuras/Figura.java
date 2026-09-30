@@ -3,6 +3,11 @@ package com.krakedev.figuras;
 public class Figura {
     private String nombre;
     private String color;
+    
+public Figura(String nombre , String color) {
+	this.color = color;
+	this.nombre = nombre;
+}
 
     public String getNombre() {
         return nombre;
