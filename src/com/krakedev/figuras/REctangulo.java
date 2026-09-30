@@ -13,7 +13,7 @@ public class REctangulo extends Figura {
     }
 
   @Override
-    public int calcularPerimetro() {
+    public double calcularPerimetro() {
         return 2 * base + 2 * altura;
     }
   

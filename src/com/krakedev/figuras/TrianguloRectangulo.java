@@ -18,7 +18,7 @@ public class TrianguloRectangulo extends Figura {
 
     
     @Override
-    public int calcularPerimetro() {
+    public double calcularPerimetro() {
         return (int) (catetoA + catetoB + hipotenusa);
     }
 

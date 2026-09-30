@@ -1,6 +1,7 @@
 package com.krakedev.figuras;
 
-public class Figura {
+
+public abstract class Figura {
     private String nombre;
     private String color;
     
@@ -9,14 +10,9 @@ public class Figura {
         this.nombre = nombre;
     }
 
-
-    public int calcularPerimetro() {
-        return 0; 
-    }
-    
-    public double calcularArea() {
-        return 0.0;
-    }
+   
+    public abstract double calcularArea();
+    public abstract double calcularPerimetro();
 
     public String getNombre() {
         return nombre;

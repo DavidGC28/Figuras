@@ -1,7 +1,6 @@
 package com.krakedev.test;
 
 import com.krakedev.figuras.Cuadrado;
-import com.krakedev.figuras.Triangulo;
 
 public class TestFiguras {
 
@@ -9,10 +8,10 @@ public class TestFiguras {
 		// TODO Auto-generated method stub
 
 		Cuadrado c1 = new Cuadrado("Cuadro1","Rojo", 0);
-		Triangulo t1 = new Triangulo("Triangulo1","Verde");
+	
 		
 		System.out.println(c1);
-        System.out.println(t1);
+        
 		
 	}
 

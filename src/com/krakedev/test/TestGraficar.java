@@ -1,10 +1,12 @@
 package com.krakedev.test;
 
 import com.krakedev.figuras.Cuadrado;
-import com.krakedev.figuras.Triangulo;
+
+import com.krakedev.figuras.TrianguloRectangulo;
 import com.krakedev.figuras.REctangulo;
-import com.krakedev.figuras.Figura;
+
 import com.krakedev.figuras.Graficador;
+import com.krakedev.figuras.Hexagono;
 
 public class TestGraficar {
 
@@ -12,14 +14,17 @@ public class TestGraficar {
         
         Graficador graficador = new Graficador();
 
-        Figura f = new Figura("FIGURA GENÉRICA", "GRIS");
+        
         Cuadrado c = new Cuadrado("CUADRADO", "ROJO", 1);
-        Triangulo t = new Triangulo("TRIÁNGULO", "VERDE");
+       
         REctangulo r = new REctangulo("RECTÁNGULO", "AZUL", 4, 5);
+        TrianguloRectangulo tr = new TrianguloRectangulo("TRIÁNGULO RECTÁNGULO", "AMARILLO", 3, 4);
+        Hexagono h = new Hexagono ("Hexagono", "NARANJA", 8);
 
-        graficador.graficar(f);
+     
         graficador.graficar(c);
-        graficador.graficar(t);
+        graficador.graficar(h);
         graficador.graficar(r);
+        graficador.graficar(tr);
     }
 }
