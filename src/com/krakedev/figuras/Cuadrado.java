@@ -10,10 +10,15 @@ public class Cuadrado extends Figura {
         this.lado = lado;
     }
 
-   
+@Override
     public int calcularPerimetro() {
         return 4 * lado;
     }
+
+@Override
+public double calcularArea() {
+    return lado * lado;
+}
 
 
     public int getLado() {
