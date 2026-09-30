@@ -1,5 +1,5 @@
 package com.krakedev.figuras;
 
-public class Triangulo {
+public class Triangulo extends Figura {
 
 }
